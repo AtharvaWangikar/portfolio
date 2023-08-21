@@ -15,7 +15,7 @@ const projects = [
   },
   {
     name: "COVID 19 Exploratory Analysis",
-    description: "•	Processed the comprehensive CoVID 19 dataset, and uncovered valuable conclusions and insights about the COVID-19 pandemic.",
+    description: " Processed the comprehensive CoVID 19 dataset, and uncovered valuable conclusions and insights about the COVID-19 pandemic.",
     image: "/cov.png",
     github: "https://github.com/AtharvaWangikar/Analysis_of_COVID19",
     link: "/",
