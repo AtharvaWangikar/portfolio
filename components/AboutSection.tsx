@@ -2,10 +2,11 @@ import React from "react"
 const Gskills = [
   { skill: "Data Analysis" },
   { skill: "Data Visualization" },
+  { skill: "Agile" },
   { skill: "Web Development" },
   { skill: "Teamwork" },
   { skill: "Adaptability" },
-  { skill: "Agile" },
+
 ]
 
 const Tskills = [
@@ -21,9 +22,9 @@ const Tskills = [
 const Toskills = [
   { skill: "Spreadsheets" },
   { skill: "MySQL/Postgres/SSMS" },
+  { skill: "Power BI" },
   { skill: "MongoDB" },
   { skill: "Tableau" },
-  { skill: "PowerBI" },
   { skill: "Google Cloud" },
   { skill: "Netlify" },
   { skill: "React" },
@@ -77,6 +78,14 @@ const AboutSection = () => {
               possible. I am excited to see where my career takes me and am
               always open to new opportunities.
             </p>
+            <br />
+            <div>
+              <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
+                <a className="button" href="./AtharvaWangikarResume.pdf" download="AtharvaWangikarResume.pdf">
+                  Download Resume
+                </a>
+              </button>
+            </div>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
