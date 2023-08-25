@@ -18,7 +18,7 @@ const projects = [
     description: " Processed the comprehensive CoVID 19 dataset, and uncovered valuable conclusions and insights about the COVID-19 pandemic.",
     image: "/cov.png",
     github: "https://github.com/AtharvaWangikar/Analysis_of_COVID19",
-    link: "https://github.com/AtharvaWangikar/Analysis_of_COVID19/COVID19Analysis.ipynb",
+    link: "https://github.com/AtharvaWangikar/Analysis_of_COVID19",
   },
   {
     name: "Netflix Clone using NextJS",
