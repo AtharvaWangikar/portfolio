@@ -11,14 +11,14 @@ const projects = [
       "Comprehensive visualization tool for analyzing Indian Premier League matches, team and player statistics. Focuses on KPIs such as team performance, player performance, season records by teams,etc.",
     image: "/ipl.png",
     github: "https://github.com/AtharvaWangikar?=repositories",
-    link: "/",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiNWE2YmE4MjUtYWY1OC00MTk1LTgzNzAtNDk2YzJkY2QxOTA1IiwidCI6ImE2OTZhYjYwLTBhODEtNDM0Ni04MWFjLWU5ZjAxODM5Y2EzMiJ9",
   },
   {
     name: "COVID 19 Exploratory Analysis",
     description: " Processed the comprehensive CoVID 19 dataset, and uncovered valuable conclusions and insights about the COVID-19 pandemic.",
     image: "/cov.png",
     github: "https://github.com/AtharvaWangikar/Analysis_of_COVID19",
-    link: "https://app.powerbi.com/view?r=eyJrIjoiNWE2YmE4MjUtYWY1OC00MTk1LTgzNzAtNDk2YzJkY2QxOTA1IiwidCI6ImE2OTZhYjYwLTBhODEtNDM0Ni04MWFjLWU5ZjAxODM5Y2EzMiJ9",
+    link: "https://github.com/AtharvaWangikar/Analysis_of_COVID19/COVID19Analysis.ipynb",
   },
   {
     name: "Netflix Clone using NextJS",
