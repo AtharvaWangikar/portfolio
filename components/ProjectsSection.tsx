@@ -29,12 +29,12 @@ const projects = [
     link: "https://netflix-clone-spidey.vercel.app/",
   },
   {
-    name: "Car Rental Web App using NextJS",
+    name: "Personal Expense Tracker and Dashboard",
     description:
-      "Fully Functional Car Rental Web App using React for frontend, Next for Server-side rendering, TailwindCSS for styling, Prisma for data Abstraction, MongoDB for storage, Next-Auth for Authentication, Typescript for scripting and Vercel for Deployment.",
+      "Currently working on it.",
     image: "/cs.jpg",
-    github: "https://github.com/AtharvaWangikar/netflix-clone",
-    link: "https://netflix-clone-spidey.vercel.app/",
+    github: "https://github.com/AtharvaWangikar/e",
+    link: "/",
   },
 ]
 
