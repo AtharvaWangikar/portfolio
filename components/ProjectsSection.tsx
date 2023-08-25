@@ -29,12 +29,12 @@ const projects = [
     link: "https://netflix-clone-spidey.vercel.app/",
   },
   {
-    name: "Personal Expense Tracker and Dashboard",
+    name: "World Economic Data Analysis and Insights",
     description:
-      "Currently working on it.",
+      "Final Year Project. The team is currently working on it.",
     image: "/cs.jpg",
-    github: "https://github.com/AtharvaWangikar/e",
-    link: "/",
+    github: "https://github.com/AtharvaWangikar/World-Economic-Data",
+    link: "https://github.com/AtharvaWangikar/World-Economic-Data",
   },
 ]
 
