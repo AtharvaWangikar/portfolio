@@ -1,25 +1,6 @@
 import React from "react"
 import { useState } from "react";
 
-const [showResume, setShowResume] = useState(false);
-{showResume && (
-  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
-    <div className="relative w-11/12 h-5/6 bg-white rounded-xl shadow-2xl">
-
-      <button
-        onClick={() => setShowResume(false)}
-        className="absolute top-4 right-4 text-2xl font-bold hover:text-red-500"
-      >
-        ✕
-      </button>
-
-      <iframe
-        src="/AtharvaWangikarResume.pdf"
-        className="w-full h-full rounded-xl"
-      />
-    </div>
-  </div>
-)}
 const Gskills = [
    { skill: "Business Analysis" },
   { skill: "Stakeholder Management" },
@@ -60,6 +41,8 @@ const Toskills = [
 ]
 
 const AboutSection = () => {
+  const [showResume, setShowResume] = useState(false);
+
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
@@ -174,6 +157,25 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
+      {showResume && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
+    <div className="relative w-11/12 h-5/6 bg-white rounded-xl shadow-2xl">
+
+      <button
+        onClick={() => setShowResume(false)}
+        className="absolute top-4 right-4 text-2xl font-bold hover:text-red-500"
+      >
+        ✕
+      </button>
+
+      <iframe
+        src="/AtharvaWangikarResume.pdf"
+        className="w-full h-full rounded-xl"
+      />
+    </div>
+  </div>
+)}
+
     </section>
   )
 }
