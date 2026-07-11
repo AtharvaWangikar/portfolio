@@ -104,15 +104,15 @@ const AboutSection = () => {
 </p>
    
             <br />
-            <div>
-              <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
+            <div className="flex items-center gap-4 mt-6">
+              <button onClick={() => setShowResume(true)} className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
+                   View Resume
+                 </button>
+               <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
                 <a className="button" href="./Atharva_Wangikar_BSA_Resume_Payments.pdf" download="Atharva_Wangikar_BSA_Resume_Payments.pdf">
                   Download Resume
                 </a>
               </button>
-               <button onClick={() => setShowResume(true)} className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
-                   View Resume
-                 </button>
             </div>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -170,7 +170,7 @@ const AboutSection = () => {
       </button>
 
       <iframe
-        src="/AtharvaWangikarResume.pdf"
+        src="/Atharva_Wangikar_BSA_Resume_Payments.pdf"
         className="w-full h-full rounded-xl"
       />
     </div>
