@@ -1,12 +1,15 @@
 import React from "react"
 const Gskills = [
-  { skill: "Data Analysis" },
-  { skill: "Data Visualization" },
-  { skill: "Agile" },
-  { skill: "Web Development" },
-  { skill: "Teamwork" },
-  { skill: "Adaptability" },
-
+  const Gskills = [
+  { skill: "Business Analysis" },
+  { skill: "Stakeholder Management" },
+  { skill: "Agile & Scrum" },
+  { skill: "Requirements Gathering" },
+  { skill: "Project Coordination" },
+  { skill: "UAT & Release Management" },
+  { skill: "Risk & Issue Management" },
+  { skill: "Process Improvement" },
+]
 ]
 
 const Tskills = [
@@ -20,19 +23,23 @@ const Tskills = [
   { skill: "Java" },
 ]
 const Toskills = [
-  { skill: "Spreadsheets" },
-  { skill: "MySQL/Postgres/SSMS" },
-  { skill: "Power BI" },
-  { skill: "MongoDB" },
-  { skill: "Tableau" },
-  { skill: "Google Cloud" },
-  { skill: "Netlify" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  const Toskills = [
+  { skill: "Jira" },
+  { skill: "Confluence" },
+  { skill: "Oracle Database" },
+  { skill: "PostgreSQL" },
+  { skill: "AWS" },
+  { skill: "Amazon RDS" },
+  { skill: "Kubernetes (EKS)" },
+  { skill: "Dynatrace" },
+  { skill: "Bitbucket" },
+  { skill: "Jenkins" },
   { skill: "Git" },
-  { skill: "Vercel" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Power BI" },
+  { skill: "IBM MQ" },
+  { skill: "OpenSearch" },
+  { skill: "REST APIs" },
+]
 ]
 
 const AboutSection = () => {
@@ -50,34 +57,50 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Atharva Wangikar and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Pune.
-            </p>
-            <br />
-            <p>
-              I will graduate from Dr D Y Patil Institute of Technology, Pune  in 2024 with a BE in Computer Engineering.
-            </p>
-            <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, riding, traveling, listening to music, watching TV, exploring and staying updated on Science & Technology.
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-cyan-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities.
-            </p>
+  Hi, my name is Atharva Wangikar and I am a{" "}
+  <span className="font-bold">Business Systems Analyst</span> specializing in{" "}
+  <span className="font-bold">Payments Technology</span>, based in Mumbai,
+  India.
+</p>
+
+<br />
+
+<p>
+  I currently work on enterprise payment systems, collaborating with business,
+  development, QA, infrastructure, cloud, and security teams to deliver
+  high-impact financial solutions. My experience spans requirements gathering,
+  Agile delivery, stakeholder management, UAT, production releases, and
+  cross-functional project coordination.
+</p>
+
+<br />
+
+<p>
+  I have contributed to multiple payment initiatives including ABBPS
+  enhancements, NACH technical upgrades, Business Continuity Planning, and
+  automation projects. I enjoy solving complex business problems, improving
+  processes, and bridging the gap between business and technology.
+</p>
+
+<br />
+
+<p>
+  Outside of work, I enjoy travelling, reading, exploring emerging
+  technologies, and staying updated with developments in cloud computing,
+  fintech, and artificial intelligence.
+</p>
+
+<br />
+
+<p>
+  I believe in{" "}
+  <span className="font-bold text-cyan-500">
+    continuous learning and delivering meaningful impact
+  </span>
+  . My goal is to grow into Technical Program Management and Product leadership
+  roles while continuing to build expertise in Payments, Cloud, and AI-enabled
+  solutions.
+</p>
             <br />
             <div>
               <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
