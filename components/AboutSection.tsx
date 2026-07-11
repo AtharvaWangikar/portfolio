@@ -1,3 +1,5 @@
+"use client" // this is a client component
+
 import React, { useState } from "react"
 
 const Gskills = [
