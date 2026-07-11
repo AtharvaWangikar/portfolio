@@ -23,7 +23,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "Professonal Experience",
-    page: "professionalexperience",
+    page: "experiences",
   },
 ]
 
