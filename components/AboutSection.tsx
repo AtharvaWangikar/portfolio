@@ -1,4 +1,25 @@
 import React from "react"
+import { useState } from "react";
+
+const [showResume, setShowResume] = useState(false);
+{showResume && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
+    <div className="relative w-11/12 h-5/6 bg-white rounded-xl shadow-2xl">
+
+      <button
+        onClick={() => setShowResume(false)}
+        className="absolute top-4 right-4 text-2xl font-bold hover:text-red-500"
+      >
+        ✕
+      </button>
+
+      <iframe
+        src="/AtharvaWangikarResume.pdf"
+        className="w-full h-full rounded-xl"
+      />
+    </div>
+  </div>
+)}
 const Gskills = [
    { skill: "Business Analysis" },
   { skill: "Stakeholder Management" },
@@ -105,11 +126,9 @@ const AboutSection = () => {
                   Download Resume
                 </a>
               </button>
-               <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
-                <a className="button" href="./Atharva_Wangikar_BSA_Resume_Payments.pdf" target="_blank"  rel="noopener noreferrer">
+               <button onClick={() => setShowResume(true)} className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
                    View Resume
-                 </a>
-               </button>
+                 </button>
             </div>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
