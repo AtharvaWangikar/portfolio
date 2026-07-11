@@ -27,7 +27,7 @@ const HeroSection = () => {
 with experience in Payments, Agile delivery, and cross-functional project coordination. I enjoy solving complex business problems, driving product delivery, and building technology solutions that create real business value.
           </p>
           <Link
-            to="WorkExperience"
+            to="experience"
             className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700"
             activeClass="active"
             spy={true}
