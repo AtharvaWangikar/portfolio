@@ -1,61 +1,42 @@
-import React from "react"
-import {
-  AiOutlineGithub,
-  AiOutlineTwitter,
-  AiOutlineLinkedin,
-} from "react-icons/ai"
-import { RxDiscordLogo } from "react-icons/rx";
+import React from "react";
+import { AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
-      <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
-      <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
-        <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          Atharva Wangikar<a href="/" className="hover:underline"></a>
+    <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
+      <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0" />
+
+      <div className="mx-auto p-4 flex flex-col items-center text-neutral-900 md:flex-row md:justify-between">
+        <div className="text-neutral-500 dark:text-neutral-100">
+          © {new Date().getFullYear()} Atharva Wangikar
         </div>
-        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/AtharvaWangikar/" rel="noreferrer" target="_blank">
-            <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
-            />
-          </a>
+
+        <div className="flex items-center space-x-4 mt-3 md:mt-0">
           <a
-            href="https://twitter.com/AtharvaWangikar"
-            rel="noreferrer"
+            href="https://www.linkedin.com/in/atharva-wangikar-ba9a36219/"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
-            <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+            <AiOutlineLinkedin
               size={30}
+              className="text-neutral-500 hover:-translate-y-1 transition-transform dark:text-neutral-100"
             />
           </a>
 
           <a
-            href="https://www.linkedin.com/in/atharva-wangikar-ba9a36219/"
-            rel="noreferrer"
-            target="_blank"
+            href="mailto:your.atharvawangikar@gmail.com"
+            aria-label="Email"
           >
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+            <AiOutlineMail
               size={30}
-            />
-          </a>
-          <a
-            href="https://discordapp.com/users/722824239945613374"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <RxDiscordLogo
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-              size={30}
+              className="text-neutral-500 hover:-translate-y-1 transition-transform dark:text-neutral-100"
             />
           </a>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
