@@ -21,7 +21,6 @@ const Tskills = [
   { skill: "Java" },
 ]
 const Toskills = [
-  const Toskills = [
   { skill: "Jira" },
   { skill: "Confluence" },
   { skill: "Oracle Database" },
@@ -37,7 +36,6 @@ const Toskills = [
   { skill: "IBM MQ" },
   { skill: "OpenSearch" },
   { skill: "REST APIs" },
-]
 ]
 
 const AboutSection = () => {
