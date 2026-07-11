@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/atharva.jpg"
+            src="/Atharva_Wangikar.png"
             alt=""
             width={325}
             height={325}
@@ -27,7 +27,7 @@ const HeroSection = () => {
 with experience in Payments, Agile delivery, and cross-functional project coordination. I enjoy solving complex business problems, driving product delivery, and building technology solutions that create real business value.
           </p>
           <Link
-            to="projects"
+            to="professional experience"
             className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700"
             activeClass="active"
             spy={true}
@@ -35,7 +35,7 @@ with experience in Payments, Agile delivery, and cross-functional project coordi
             offset={-100}
             duration={500}
           >
-            Projects
+            Professional Experience
           </Link>
         </div>
       </div>
