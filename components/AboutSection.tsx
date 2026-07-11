@@ -100,7 +100,7 @@ const AboutSection = () => {
             <br />
             <div>
               <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
-                <a className="button" href="./Atharva_Wangikar_BSA_Resume_Payments.pdf" download="AtharvaWangikarResume.pdf">
+                <a className="button" href="./Atharva_Wangikar_BSA_Resume_Payments.pdf" download="Atharva_Wangikar_BSA_Resume_Payments.pdf">
                   Download Resume
                 </a>
               </button>
