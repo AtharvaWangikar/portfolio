@@ -25,7 +25,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="mailto:your.atharvawangikar@gmail.com"
+            href="mailto:atharvawangikar@gmail.com"
             aria-label="Email"
           >
             <AiOutlineMail
