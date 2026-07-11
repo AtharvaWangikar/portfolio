@@ -22,9 +22,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-cyan-600">
-              Software Engineer{" "}
+                  Business Systems Analyst{" "}
             </span>
-            based in Pune. I am interested in Frontend Development and Data Analytics, I am a self-driven professional eager to put my skills to use in real world data projects.
+with experience in Payments, Agile delivery, and cross-functional project coordination. I enjoy solving complex business problems, driving product delivery, and building technology solutions that create real business value.
           </p>
           <Link
             to="projects"
