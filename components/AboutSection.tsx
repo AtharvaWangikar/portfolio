@@ -97,6 +97,7 @@ const AboutSection = () => {
   roles while continuing to build expertise in Payments, Cloud, and AI-enabled
   solutions.
 </p>
+   
             <br />
             <div>
               <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
@@ -104,6 +105,11 @@ const AboutSection = () => {
                   Download Resume
                 </a>
               </button>
+               <button className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-blue-700">
+                <a className="button" href="./Atharva_Wangikar_BSA_Resume_Payments.pdf" target="_blank"  rel="noopener noreferrer">
+                   View Resume
+                 </a>
+               </button>
             </div>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
