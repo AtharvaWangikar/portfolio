@@ -74,40 +74,6 @@ const experiences = [
 ]
 const WorkExperience = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-16">
-
-<div className="rounded-xl p-6 shadow-lg text-center">
-<h2 className="text-4xl font-bold text-cyan-600">50+</h2>
-<p>Production Releases</p>
-</div>
-
-<div className="rounded-xl p-6 shadow-lg text-center">
-<h2 className="text-4xl font-bold text-cyan-600">10+</h2>
-<p>Major Enhancements</p>
-</div>
-
-<div className="rounded-xl p-6 shadow-lg text-center">
-<h2 className="text-4xl font-bold text-cyan-600">8-10</h2>
-<p>Teams Coordinated</p>
-</div>
-
-<div className="rounded-xl p-6 shadow-lg text-center">
-<h2 className="text-4xl font-bold text-cyan-600">24</h2>
-<p>Months Zero Overdue VAPT</p>
-</div>
-
-<div className="rounded-xl p-6 shadow-lg text-center">
-<h2 className="text-4xl font-bold text-cyan-600">1500+</h2>
-<p>Security Observations Closed</p>
-</div>
-
-<div className="rounded-xl p-6 shadow-lg text-center">
-<h2 className="text-4xl font-bold text-cyan-600">6</h2>
-<p>Environments Supported</p>
-</div>
-
-</div>
-
     <section id="experience">
       <h1 className="my-10 text-center font-bold text-4xl">
         Work Experience
