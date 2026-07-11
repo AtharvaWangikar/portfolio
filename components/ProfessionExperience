@@ -1,0 +1,112 @@
+import React from "react"
+import SlideUp from "./SlideUp"
+
+const experiences = [
+  {
+    title: "ABBPS Payment Platform",
+    duration: "2023 – Present",
+    description:
+      "Business Systems Analyst for a mission-critical payment platform supporting multiple banking payment services and business enhancements.",
+    highlights: [
+      "⭐ Led business analysis and delivery coordination for **50+ production releases** and **50+ UAT cycles**.",
+      "⭐ Delivered **10+ major business enhancements**, including User-Friendly File Formats and GL Pointing Account improvements.",
+      "⭐ Gathered, analyzed, and documented functional requirements from business stakeholders.",
+      "⭐ Coordinated **8–10 cross-functional teams** including Business, Development, QA, Infrastructure, Cloud, Security, Database, Vendors and Operations.",
+      "⭐ Managed Agile ceremonies including Sprint Planning, Backlog Grooming, Daily Stand-ups and Release Planning.",
+      "⭐ Supported production deployments, defect triaging, change requests and post-production validation.",
+      "⭐ Ensured **24 months with zero overdue VAPT observations** by coordinating with AppSec and Infosec teams.",
+      "⭐ Maintained project documentation, Jira boards, Confluence pages and implementation plans."
+    ]
+  },
+  {
+    title: "NACH Technical Upgrade",
+    duration: "2025 – Present",
+    description:
+      "Supporting modernization of the NACH payment platform while maintaining uninterrupted delivery for the live production system.",
+    highlights: [
+      "⭐ Coordinating application, infrastructure, database and middleware teams.",
+      "⭐ Managing project roadmap, dependencies, implementation milestones and release planning.",
+      "⭐ Balancing long-term technical upgrade activities with ongoing business enhancements.",
+      "⭐ Prioritizing work using business value, implementation effort, dependencies and operational risk.",
+      "⭐ Coordinating environment readiness, testing activities and production deployment planning."
+    ]
+  },
+  {
+    title: "Business Continuity Planning (Direct Settlement)",
+    duration: "Completed",
+    description:
+      "Business Analysis and project coordination for implementation of the Direct Settlement application used for Business Continuity Planning.",
+    highlights: [
+      "⭐ Coordinated infrastructure provisioning across Cloud, Network, Database and Application teams.",
+      "⭐ Managed DNS creation, SFMS, GPS and C24 connectivity validation.",
+      "⭐ Coordinated access provisioning and environment readiness.",
+      "⭐ Supported master table replication and deployment activities.",
+      "⭐ Worked closely with Business Support Group throughout UAT.",
+      "⭐ Tracked defects, coordinated fixes and ensured deployment readiness."
+    ]
+  },
+  {
+    title: "Automation Testing Initiative",
+    duration: "Completed",
+    description:
+      "Business Analysis support for automation of payment transaction testing to reduce manual effort and accelerate releases.",
+    highlights: [
+      "⭐ Collaborated with GPS, Finacle, Development and QA teams.",
+      "⭐ Defined business scenarios and validated end-to-end payment flows.",
+      "⭐ Improved automation coverage for critical payment transactions.",
+      "⭐ Reduced manual testing effort and streamlined UAT activities.",
+      "⭐ Contributed to improving release quality and delivery efficiency."
+    ]
+  },
+  {
+    title: "Operational Excellence & Production Support",
+    duration: "Ongoing",
+    description:
+      "Supporting day-to-day operations of critical banking payment applications while driving continuous improvements.",
+    highlights: [
+      "⭐ Managed production incidents, change requests and enhancement requests.",
+      "⭐ Worked with **4–5 external vendors** and multiple internal stakeholders.",
+      "⭐ Coordinated infrastructure provisioning and environment validation.",
+      "⭐ Supported cloud deployments across Development, SIT, UAT, Production and DR environments.",
+      "⭐ Maintained RBI compliance, project documentation and audit evidence.",
+      "⭐ Assisted with procurement activities, vendor coordination and purchase order management."
+    ]
+  }
+]
+const WorkExperience = () => {
+  return (
+    <section id="experience">
+      <h1 className="my-10 text-center font-bold text-4xl">
+        Work Experience
+        <hr className="w-8 h-1 mx-auto my-4 bg-cyan-500 border-0 rounded" />
+      </h1>
+
+      <div className="space-y-10">
+        {experiences.map((exp, idx) => (
+          <SlideUp key={idx} offset="-200px 0px -200px 0px">
+            <div className="rounded-xl border border-neutral-200 dark:border-neutral-700 p-6 shadow-md hover:shadow-xl transition-all">
+              <div className="flex justify-between items-center flex-wrap">
+                <h2 className="text-2xl font-bold">{exp.title}</h2>
+                <span className="text-cyan-600 font-semibold">
+                  {exp.duration}
+                </span>
+              </div>
+
+              <p className="mt-3 text-neutral-600 dark:text-neutral-400">
+                {exp.description}
+              </p>
+
+              <ul className="list-disc pl-5 mt-4 space-y-2 text-neutral-700 dark:text-neutral-300">
+                {exp.highlights.map((point, index) => (
+                  <li key={index}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          </SlideUp>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+export default WorkExperience
