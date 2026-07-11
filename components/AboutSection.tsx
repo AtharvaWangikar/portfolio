@@ -1,7 +1,6 @@
 import React from "react"
 const Gskills = [
-  const Gskills = [
-  { skill: "Business Analysis" },
+   { skill: "Business Analysis" },
   { skill: "Stakeholder Management" },
   { skill: "Agile & Scrum" },
   { skill: "Requirements Gathering" },
@@ -9,7 +8,6 @@ const Gskills = [
   { skill: "UAT & Release Management" },
   { skill: "Risk & Issue Management" },
   { skill: "Process Improvement" },
-]
 ]
 
 const Tskills = [
