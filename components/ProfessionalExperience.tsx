@@ -3,7 +3,7 @@ import SlideUp from "./SlideUp"
 const experiences = [
   {
     title: "ABBPS Payment Platform",
-    duration: "2023 – Present",
+    duration: "2024 – Present",
     description:
       "Business Systems Analyst for a mission-critical payment platform supporting multiple banking payment services and business enhancements.",
     highlights: [
@@ -19,7 +19,7 @@ const experiences = [
   },
   {
     title: "NACH Technical Upgrade",
-    duration: "2025 – Present",
+    duration: "2026 – Present",
     description:
       "Supporting modernization of the NACH payment platform while maintaining uninterrupted delivery for the live production system.",
     highlights: [
